@@ -12,7 +12,7 @@ public class Greetings_Controller{
   @RequestMapping("/Hello")
   public Greetings greetings(@RequestParam(value="name", defaultValue="World") String name)
   {
-  		return new Greeting(counter.incrementAndGet(),
+  		return new Greetings(counter.incrementAndGet(),
               String.format(template, name));
   }
 }
