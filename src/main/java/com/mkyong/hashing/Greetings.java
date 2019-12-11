@@ -1,7 +1,6 @@
 package com.mkyong.hashing;
 
-public class Greetings()
-{
+public class Greetings{
 	private final long id;
 	private final String content;
 	public Greetings(long id, String content)
