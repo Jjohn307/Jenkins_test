@@ -35,4 +35,12 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    @Test
+    public void testGet()
+    {
+        Greetings greet = new Greetings(1,"Hello world");
+        assertEquals("Hello world",greet.getContent);
+    }
+    
 }
